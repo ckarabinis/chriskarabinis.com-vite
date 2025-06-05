@@ -1,0 +1,240 @@
+/* Google Font - Rubik */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+/* General Vars */
+:root{ 
+    --bg-clr: #FFFFFF;
+    --clr-primary: #020100;
+    --clr-second: #4E00B0;
+    --clr-accent-primary: #8F33FF;
+    --clr-accent-second: #ED6A5A;
+    --ff-primary: "Lato", sans-serif;
+}
+/* Global Styles */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    line-height: 1.5;
+    border: none;
+    transition: all 0.1s ease;
+    list-style: none;
+}
+body{
+    font-family: var(--ff-primary);
+    background-color: var(--bg-clr);
+    color: var(--clr-primary);
+}
+.title-h1{
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+.title-h2{
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+.title-h3 {
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+.title-h4 {
+  font-size: 1.2rem;
+  font-weight: 300;
+  line-height: 1.4;
+}
+/* Wrapper */
+.wrapper {
+  max-width: 75rem;
+  margin: auto;
+  padding-top: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+/* Header Section */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-logo img{
+    max-width: 6.25rem;
+}
+.nav-btn button{
+    font-family: var(--ff-primary);
+    font-size: 1rem;
+    font-weight: var(--fw-500);
+    padding: 0.5rem;
+    border: 0.2rem solid;
+    border-radius: 0.8rem;
+    border-color: var(--clr-second);
+    background-color: var(--bg-clr);
+    transition: all 0.1s ease;
+}
+.nav-btn button:hover{
+    font-weight: var(--fw-600);
+    background-color: var(--bg-clr);
+    border: 0.4rem solid;
+    border-color: var(--clr-accent-primary);
+    cursor: pointer;
+    transition: all 0.1s ease;
+}
+.bottom-line{
+    background-color: var(--clr-primary);
+    max-width: 1200px;
+    margin: auto;
+    height: 0.080rem;
+}
+/* Main Section */
+.container{
+    max-width: 1200px;
+    text-align: center;
+    padding-top: 8rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin: auto;
+}
+.landing-t{
+    padding-bottom: 2rem;
+}
+.accent-color{
+    color: var(--clr-second);
+}
+.landing-image{
+  height: 35rem;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  padding-bottom: 1rem;
+}
+.landing-image img{
+    width: 15rem;
+    transform: translateY(15%);
+}
+.about-container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 5rem 2rem;
+  text-align: center;
+}
+.about-info{
+  width: 100%;
+  background-color: var(--clr-second);
+  color: var(--bg-clr);
+}
+.about-info h2{
+  margin: auto;
+  padding-bottom: 2rem;
+}
+.container-cards {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+.card{
+  display: flexbox;
+  justify-content: space-between;
+  width: 50%;
+  border: solid thin;
+  border-radius: 1rem;
+  border-color: var(--clr-second);
+  border-width: 0.2rem;
+  text-align: center;
+}
+.card:hover{
+  cursor: pointer;
+  transform: scale(1.05);
+  transition: all 0.2s ease;
+}
+.card-title{
+  height: 20%;
+  font-size: 1.3rem;
+  font-weight: 900;
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-style:dotted;
+  text-decoration-color: var(--clr-second);
+  text-decoration-thickness: 0.2rem;
+  text-underline-offset: 0.5rem;
+}
+.card-sub-title{
+  height: 20%;
+  font-weight: 600;
+  padding-bottom: 6rem;
+}
+.container-clickme{
+  margin-top: 4rem;
+  text-align: center;
+}
+.clickme-title{
+padding-bottom: 1rem;
+}
+.clickme-btn{
+  padding-top: 1rem;
+}
+.clickme-btn{
+
+}
+.btn{
+    font-family: var(--ff-primary);
+    font-size: 1.5rem;
+    font-weight: var(--fw-500);
+    padding: 0.5rem;
+    border: 0.2rem solid;
+    border-radius: 0.8rem;
+    border-color: var(--clr-second);
+    background-color: var(--bg-clr);
+    transition: all 0.1s ease;
+}
+.btn:hover{
+    font-weight: var(--fw-600);
+    background-color: var(--bg-clr);
+    border: 0.4rem solid;
+    border-color: var(--clr-accent-primary);
+    cursor: pointer;
+    transition: all 0.1s ease;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 1201px) {
+  /* Styles για μεγαλύτερες οθόνες */
+}
+@media (max-width: 1200px) {
+  /* Styles για laptops */
+}
+@media (max-width: 992px) {
+  /* Styles για tablets και μικρότερα laptops */
+}
+@media (max-width: 768px) {
+  /* Styles για κινητά σε portrait και μικρά tablets */
+}
+@media (max-width: 480px) {
+  /* Styles για μικρά κινητά */
+}
+@media (max-width: 320px) {
+  /* Styles για xs - μικρά κινητά */
+}
