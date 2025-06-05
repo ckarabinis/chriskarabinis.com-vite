@@ -73,7 +73,7 @@ body{
     transition: all 0.1s ease;
 }
 .nav-btn button:hover{
-    font-weight: var(--fw-600);
+    transform: scale(1.1);
     background-color: var(--bg-clr);
     border: 0.4rem solid;
     border-color: var(--clr-accent-primary);
@@ -173,6 +173,7 @@ padding-bottom: 1rem;
 }
 .clickme-btn{
   padding-top: 1rem;
+  padding-bottom: 2rem;
 }
 .btn{
     font-family: var(--ff-primary);
@@ -186,7 +187,7 @@ padding-bottom: 1rem;
     transition: all 0.1s ease;
 }
 .btn:hover{
-    font-weight: var(--fw-600);
+    transform: scale(1.1);
     background-color: var(--bg-clr);
     border: 0.4rem solid;
     border-color: var(--clr-accent-primary);
